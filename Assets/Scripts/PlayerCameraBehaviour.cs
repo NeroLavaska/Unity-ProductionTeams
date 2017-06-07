@@ -1,69 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
 public class PlayerCameraBehaviour : MonoBehaviour
 {
-
-    [Range(-45f, 45f)]
-    public float CameraXRotation;
-    [Range(-45f, 45f)]
-    public float CameraYRotation;
-
     public GameObject PlayerToFollow;
     private Vector3 offset;
     private float nearClip;
+    public float CameraDistance;
     private RaycastHit hit;
-<<<<<<< HEAD
-    private float distanceBetween;
-
-=======
->>>>>>> refs/remotes/NicholasArnaud/master
     // Use this for initialization
     void Start()
     {
-        transform.rotation = Quaternion.Euler(CameraXRotation, CameraYRotation, 0);
         nearClip = GetComponent<Camera>().nearClipPlane;
         offset = transform.position - PlayerToFollow.transform.position;
-<<<<<<< HEAD
-        distanceBetween = Vector3.Distance(PlayerToFollow.transform.position, transform.position);
-=======
->>>>>>> refs/remotes/NicholasArnaud/master
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = PlayerToFollow.transform.position + offset;
-<<<<<<< HEAD
-        transform.rotation = PlayerToFollow.transform.rotation;
+        //basic camera movement         
+        transform.forward = PlayerToFollow.transform.forward;
+        transform.position = PlayerToFollow.transform.position - (transform.forward * CameraDistance) + new Vector3(0,5,0);
+        
 
-        if (!Physics.Raycast(transform.position, Vector3.forward, out hit, PlayerToFollow.transform.position.z - transform.position.z))
-        {
-            if(nearClip != 0.3f)
-                GetComponent<Camera>().nearClipPlane = 0.3f;
-=======
+        //Checks to move nearClip for obsticles
         if (!Physics.Raycast(transform.position, Vector3.forward, out hit, 10))
         {
             nearClip = 0.3f;
->>>>>>> refs/remotes/NicholasArnaud/master
         }
         else
         {
             var distance = hit.distance;
             var distanceToCenter = hit.collider.bounds.extents.z;
             nearClip = .3f + (distance + distanceToCenter * 2f);
-<<<<<<< HEAD
-            GetComponent<Camera>().nearClipPlane = nearClip;
-=======
->>>>>>> refs/remotes/NicholasArnaud/master
         }
     }
 
+
+    //Draws a line for the collision of the RayCast
     void OnDrawGizmos()
-    {
-        if(hit.collider != null)
-            Gizmos.DrawLine(transform.position, hit.transform.position);
+    {        
+            Gizmos.DrawLine(transform.position, transform.forward * 2);
     }
 }
+
