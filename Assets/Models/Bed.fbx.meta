@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 301bcb14e0fee6340b22cc51330ddf0d
-timeCreated: 1496438452
-=======
-guid: 760eb2cb6bcf0414e8b86d97d0c56ecf
-timeCreated: 1496869563
->>>>>>> refs/remotes/NicholasArnaud/master
-licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -42,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
