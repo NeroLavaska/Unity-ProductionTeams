@@ -38,7 +38,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 39e593f90a2404b4191824cdc030295a, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 65461d02e9f4adf40960338612effb60, type: 3}
+>>>>>>> refs/remotes/NicholasArnaud/master
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

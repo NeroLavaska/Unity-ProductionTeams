@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 39e593f90a2404b4191824cdc030295a
 timeCreated: 1496438581
+=======
+guid: 65461d02e9f4adf40960338612effb60
+timeCreated: 1496869791
+>>>>>>> refs/remotes/NicholasArnaud/master
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName: {}

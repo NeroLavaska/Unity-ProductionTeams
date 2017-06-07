@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 37e5aa46e4d328147ac1ed71d45adaac
 timeCreated: 1496438466
+=======
+guid: 6ef17d7096ae708428abe0994af2ed3c
+timeCreated: 1496869605
+>>>>>>> refs/remotes/NicholasArnaud/master
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19

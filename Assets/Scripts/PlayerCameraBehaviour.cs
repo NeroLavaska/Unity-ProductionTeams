@@ -15,34 +15,49 @@ public class PlayerCameraBehaviour : MonoBehaviour
     private Vector3 offset;
     private float nearClip;
     private RaycastHit hit;
+<<<<<<< HEAD
     private float distanceBetween;
 
+=======
+>>>>>>> refs/remotes/NicholasArnaud/master
     // Use this for initialization
     void Start()
     {
         transform.rotation = Quaternion.Euler(CameraXRotation, CameraYRotation, 0);
         nearClip = GetComponent<Camera>().nearClipPlane;
         offset = transform.position - PlayerToFollow.transform.position;
+<<<<<<< HEAD
         distanceBetween = Vector3.Distance(PlayerToFollow.transform.position, transform.position);
+=======
+>>>>>>> refs/remotes/NicholasArnaud/master
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = PlayerToFollow.transform.position + offset;
+<<<<<<< HEAD
         transform.rotation = PlayerToFollow.transform.rotation;
 
         if (!Physics.Raycast(transform.position, Vector3.forward, out hit, PlayerToFollow.transform.position.z - transform.position.z))
         {
             if(nearClip != 0.3f)
                 GetComponent<Camera>().nearClipPlane = 0.3f;
+=======
+        if (!Physics.Raycast(transform.position, Vector3.forward, out hit, 10))
+        {
+            nearClip = 0.3f;
+>>>>>>> refs/remotes/NicholasArnaud/master
         }
         else
         {
             var distance = hit.distance;
             var distanceToCenter = hit.collider.bounds.extents.z;
             nearClip = .3f + (distance + distanceToCenter * 2f);
+<<<<<<< HEAD
             GetComponent<Camera>().nearClipPlane = nearClip;
+=======
+>>>>>>> refs/remotes/NicholasArnaud/master
         }
     }
 
