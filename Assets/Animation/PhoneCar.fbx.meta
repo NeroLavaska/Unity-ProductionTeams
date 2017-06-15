@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4763c36322fa9494985788b5de42e673
-timeCreated: 1497562337
+guid: 4f75672fa297e0941a0535cf92cb811d
+timeCreated: 1497560845
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -20,9 +20,9 @@ ModelImporter:
     100024: CarRig_Terrent2_AuxSHJnt
     100026: FrontAxel
     100028: FrontLeftWheel
-    100030: FullCar
-    100032: LeftRearWheel
-    100034: //RootNode
+    100030: LeftRearWheel
+    100032: //RootNode
+    100034: PhoneCar
     100036: RearAxel1
     100038: RightFrontWheel
     100040: RightRearWheel
@@ -42,9 +42,9 @@ ModelImporter:
     400024: CarRig_Terrent2_AuxSHJnt
     400026: FrontAxel
     400028: FrontLeftWheel
-    400030: FullCar
-    400032: LeftRearWheel
-    400034: //RootNode
+    400030: LeftRearWheel
+    400032: //RootNode
+    400034: PhoneCar
     400036: RearAxel1
     400038: RightFrontWheel
     400040: RightRearWheel
@@ -58,7 +58,6 @@ ModelImporter:
     4300012: Canon
     4300014: Turrent
     4300016: LeftRearWheel
-    7400000: Take 001
     9500000: //RootNode
     13700000: Canon
     13700002: CarBase

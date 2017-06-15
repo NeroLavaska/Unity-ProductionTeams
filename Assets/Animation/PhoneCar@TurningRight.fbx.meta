@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 335bee06e6422174b8cdc4e8ab2015c7
-timeCreated: 1496422154
+guid: 693fea591813cd3439c66095f73fd3d9
+timeCreated: 1497562727
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -16,16 +16,17 @@ ModelImporter:
     100016: CarRig_r_RearWheels_AuxSHJnt
     100018: CarRig_RearAxel2_AuxSHJnt
     100020: CarRig_ROOTSHJnt
-    100022: CarRig_Terrent2_AuxSHJnt
-    100024: FrontAxel
-    100026: FrontLeftWheel
-    100028: FullCar
-    100030: LeftRearWheel
-    100032: //RootNode
-    100034: RearAxel1
-    100036: RightFrontWheel
-    100038: RightRearWheel
-    100040: Turrent
+    100022: CarRig_SHJntGrp1
+    100024: CarRig_Terrent2_AuxSHJnt
+    100026: FrontAxel
+    100028: FrontLeftWheel
+    100030: FullCar
+    100032: LeftRearWheel
+    100034: //RootNode
+    100036: RearAxel1
+    100038: RightFrontWheel
+    100040: RightRearWheel
+    100042: Turrent
     400000: Canon
     400002: CarBase
     400004: CarRig_Canon2_AuxSHJnt
@@ -37,16 +38,17 @@ ModelImporter:
     400016: CarRig_r_RearWheels_AuxSHJnt
     400018: CarRig_RearAxel2_AuxSHJnt
     400020: CarRig_ROOTSHJnt
-    400022: CarRig_Terrent2_AuxSHJnt
-    400024: FrontAxel
-    400026: FrontLeftWheel
-    400028: FullCar
-    400030: LeftRearWheel
-    400032: //RootNode
-    400034: RearAxel1
-    400036: RightFrontWheel
-    400038: RightRearWheel
-    400040: Turrent
+    400022: CarRig_SHJntGrp1
+    400024: CarRig_Terrent2_AuxSHJnt
+    400026: FrontAxel
+    400028: FrontLeftWheel
+    400030: FullCar
+    400032: LeftRearWheel
+    400034: //RootNode
+    400036: RearAxel1
+    400038: RightFrontWheel
+    400040: RightRearWheel
+    400042: Turrent
     4300000: CarBase
     4300002: FrontLeftWheel
     4300004: RightFrontWheel
@@ -68,7 +70,7 @@ ModelImporter:
     13700014: RightRearWheel
     13700016: Turrent
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:

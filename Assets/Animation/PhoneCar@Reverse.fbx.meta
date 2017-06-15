@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cea621e199dc5c849acee901d56cf939
-timeCreated: 1496349383
+guid: 7d9b115103bc21f4b9c5a2c37ec62570
+timeCreated: 1497562551
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -16,8 +16,8 @@ ModelImporter:
     100016: CarRig_r_RearWheels_AuxSHJnt
     100018: CarRig_RearAxel2_AuxSHJnt
     100020: CarRig_ROOTSHJnt
-    100022: CarRig_SHJntGrp
-    100024: CarRig_Turrent2_AuxSHJnt
+    100022: CarRig_SHJntGrp1
+    100024: CarRig_Terrent2_AuxSHJnt
     100026: FrontAxel
     100028: FrontLeftWheel
     100030: FullCar
@@ -26,8 +26,7 @@ ModelImporter:
     100036: RearAxel1
     100038: RightFrontWheel
     100040: RightRearWheel
-    100042: RRM_MAIN
-    100044: Turrent
+    100042: Turrent
     400000: Canon
     400002: CarBase
     400004: CarRig_Canon2_AuxSHJnt
@@ -39,8 +38,8 @@ ModelImporter:
     400016: CarRig_r_RearWheels_AuxSHJnt
     400018: CarRig_RearAxel2_AuxSHJnt
     400020: CarRig_ROOTSHJnt
-    400022: CarRig_SHJntGrp
-    400024: CarRig_Turrent2_AuxSHJnt
+    400022: CarRig_SHJntGrp1
+    400024: CarRig_Terrent2_AuxSHJnt
     400026: FrontAxel
     400028: FrontLeftWheel
     400030: FullCar
@@ -49,8 +48,7 @@ ModelImporter:
     400036: RearAxel1
     400038: RightFrontWheel
     400040: RightRearWheel
-    400042: RRM_MAIN
-    400044: Turrent
+    400042: Turrent
     4300000: CarBase
     4300002: FrontLeftWheel
     4300004: RightFrontWheel
@@ -72,7 +70,7 @@ ModelImporter:
     13700014: RightRearWheel
     13700016: Turrent
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
